@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 540px) {
+  .container h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .container h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container h1 {
+    font-size: 1.1rem;
+  }
+}

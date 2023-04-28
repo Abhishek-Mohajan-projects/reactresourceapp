@@ -1,0 +1,18 @@
+.resource {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #222;
+  margin: 1rem 1rem;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+}
+
+.resource h2 {
+  color: orange;
+}
+
+.resource p {
+  color: white;
+}

@@ -1,0 +1,56 @@
+.form {
+  width: 25rem;
+  max-width: 100%;
+  background-color: #222;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  color: white;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form input {
+  width: 100%;
+  outline: none;
+}
+
+.form textarea {
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 5rem;
+}
+
+.btn {
+  width: 68%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  outline: none;
+  border: none;
+  background-color: #555;
+  color: white;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: black;
+}
+
+@media screen and (max-width: 940px) {
+  .form {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .form {
+    width: 80%;
+  }
+}
